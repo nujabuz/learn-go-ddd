@@ -21,7 +21,7 @@ var (
 
 // User entity.
 type User struct {
-	ID        int64
+	ID        int64 // autoincrement in database
 	Username  string
 	Password  string
 	UpdatedAt time.Time
